@@ -5,8 +5,11 @@
     <Button type="text">Text</Button>
   </div>
 </template>
+
 <script>
+import { Button } from "view-design";
 export default {
-  name: 'fontChange'
-}
+  name: "fontChange",
+  components: { Button },
+};
 </script>

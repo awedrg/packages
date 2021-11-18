@@ -1,7 +1,7 @@
 {
   "name": "@awedrg/packages",
   "description": "private packages",
-  "version": "1.0.17",
+  "version": "1.0.19",
   "author": "xiech",
   "license": "MIT",
   "private": false,
