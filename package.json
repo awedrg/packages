@@ -1,17 +1,17 @@
 {
   "name": "@awedrg/packages",
   "description": "private packages",
-  "version": "1.0.4",
+  "version": "1.0.17",
   "author": "xiech",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "dev": "vue-cli-service serve",
+    "dev": "vue-cli-service serve examples/main.js",
     "build": "vue-cli-service build",
-    "lib": "vue-cli-service build lib",
+    "lib": "vue-cli-service build --target lib --name packages packages/index.js",
     "lint": "vue-cli-service lint"
   },
-  "main": "dist/index.html",
+  "main": "dist/packages.umd.js",
   "files": [
     "dist",
     "package.json",
