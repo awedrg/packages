@@ -1,8 +1,12 @@
 // 导入封装的组件
-import fontChange from './components/font-change'
+import Vue from 'vue'
+import fontChange from './components/font-change/index'
+import changeFont from './components/font-change/mixin.js'
 import Mt1 from './components/mt1'
 
 const components = [Mt1,fontChange]
+
+Vue.mixin(changeFont)
 
 const install = function (Vue) {
   // 遍历注册所有的组件
